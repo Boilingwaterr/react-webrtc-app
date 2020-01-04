@@ -1,0 +1,82 @@
+.chatWrapper {
+    display: flex;
+    width: 100%;
+    min-width: 780px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chatLog {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    min-width: 780px;
+    word-wrap: break-word;
+    box-shadow: #000000 1px 1px 3px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    align-self: center;
+}
+
+.messageItem {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    align-items: center;
+    font-size: medium;
+}
+
+.messageItem h3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.chatWrapper form {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.chatWrapper input {
+    z-index: 3;
+    padding: 0 20px;
+    width: 745px;
+    height: 50px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #6f6d7e;
+    color: #ffffff;
+    font-size: 17px;
+    margin-right: 2px;
+    outline: none;
+}
+
+.chatWrapper input::placeholder {
+    color: #d1d8ee;
+}
+
+.chatWrapper button {
+    width: 53px;
+    height: 50px;
+    border: none;
+    background: #6f6d7e;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #d1d8ee;
+    outline: none;
+    cursor: pointer;
+}
+
+.chatWrapper button:hover {
+    background: #4e4d58;
+    transition: .2s;
+}

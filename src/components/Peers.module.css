@@ -1,0 +1,22 @@
+.usersBar {
+    width: 250px;
+    height: 100%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: #000000 .1px .1px 5px;
+}
+
+.usersBar ul {
+    align-self: flex-start;
+    padding: 0;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.usersBar li {
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+}
