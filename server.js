@@ -91,7 +91,7 @@ io.sockets.on('connection', socket => {
         socket.room = json.room;
         socket.user_id = json.myId;
 
-        if (json.toPeer !== undefined) { //if we have target // && users[json.toPeer] !== undefined
+        if (json.toPeer !== undefined) { //if we have target
             socket.broadcast.to(json.toPeer).emit('message', message, JSON.stringify(newJson));
         }
 
@@ -107,20 +107,3 @@ io.sockets.on('connection', socket => {
         console.log('received bye', users);
     });
 });
-
-
-
-
-
-
-// server.listen(port, '0.0.0.0', (error) => {
-//     if (!error) {
-//         console.log('work');
-//     } else {
-//         console.log(`we have a problem: ${error}`)
-//     }
-// });
-// app.use('/', express.static('public'));
-// app.get('/', (req, res) => {
-//     res.sendFile(`${__dirname}/build`);
-// });
