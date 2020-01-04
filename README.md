@@ -27,7 +27,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 #### after `yarn build` to start the application you need to run the following command :
 #### `node server.js` Runs a signal server for exchanging data between peers to create a connection.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-`socket listening port: 8000.`
-`maximum users in room: 2.`
-`also you can move your webcam with drag&drop.`
-
+##### `Socket listening port: 8000.`
+##### `Maximum users in room: 2.`
+##### `Also you can move your webcam with drag&drop.`
