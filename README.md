@@ -1,6 +1,9 @@
 ## Available Scripts
 
 In the project directory, you can run:https://github.com/Boilingwaterr/react-webrtc-app
+### `yarn startDev`
+
+Runs the app in the development mode and signal server.
 
 ### `yarn start`
 
